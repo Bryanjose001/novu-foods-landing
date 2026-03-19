@@ -35,9 +35,12 @@ function Features({ language }) {
   <div className="max-w-6xl mx-auto">
 
     <div className="max-w-2xl mx-auto">
-      <h2 className="text-4xl font-bold mb-4 text-[#4b5563]">
-        {content[language].title}
-      </h2>
+      <h2
+            className="text-4xl md:text-5xl font-bold mb-6 leading-tight"
+            style={{ color: "#1a1a1a", opacity: 1 }}
+          >
+            {content[language].title}
+          </h2>
 
       <p className="text-[#4b5563] mb-16">
         {content[language].subtitle}

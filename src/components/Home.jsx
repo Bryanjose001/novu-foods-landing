@@ -6,8 +6,6 @@ function Home({ language }) {
       title: "Good Food, Delivered Better",
       subtitle:
         "Discover local restaurants and enjoy fresh meals delivered straight to your door — fast, simple, and reliable.",
-      primaryButton: "Start Ordering",
-      secondaryButton: "Browse Restaurants",
     },
     es: {
       title: "Buena comida, entregada mejor",
@@ -45,21 +43,8 @@ function Home({ language }) {
         </p>
 
         <div className="flex gap-4 justify-center flex-wrap">
-          <button
-            onClick={() => (window.location.href = "/restaurants")}
-            className="px-8 py-3 rounded-full font-semibold text-white transition duration-300 hover:scale-105"
-            style={{ backgroundColor: "#1a1a1a" }}
-          >
-            {content[language].primaryButton}
-          </button>
 
-          <button
-            onClick={() => (window.location.href = "/restaurants")}
-            className="px-8 py-3 rounded-full font-semibold transition duration-300 hover:scale-105"
-            style={{ backgroundColor: "white", color: "#1a1a1a" }}
-          >
-            {content[language].secondaryButton}
-          </button>
+     
         </div>
       </div>
     </section>

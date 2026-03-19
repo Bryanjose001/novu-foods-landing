@@ -1,16 +1,120 @@
-# React + Vite
+# Novu Foods – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Novu Foods is a web application designed to connect users with local restaurants through a simple and modern interface. This project focuses on building a responsive landing page and implementing core front-end functionality using React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal of this application is to simulate a real-world food delivery platform where users can browse restaurants and interact with the interface in a seamless way.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Objectives
 
-## Expanding the ESLint configuration
+* Build a responsive landing page using React and Tailwind CSS
+* Implement bilingual support (English and Spanish)
+* Create reusable and scalable components
+* Integrate navigation using React Router
+* Design a clean and user-friendly interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+* React (Vite) – Frontend framework
+* Tailwind CSS – Styling and layout
+* React Router DOM – Navigation
+* JavaScript (ES6+) – Application logic
+
+---
+
+## Features
+
+* Language toggle between English and Spanish
+* Responsive and modern user interface
+* Navigation between pages using React Router
+* Landing page with hero section and features section
+* Functional buttons that navigate to a restaurants page
+
+---
+
+## Project Structure
+
+```
+src/
+│── assets/            # Images and logo
+│── components/        # Reusable components
+│   ├── Navbar.jsx
+│   ├── Home.jsx
+│   ├── Features.jsx
+│── App.jsx            # Main app with routes
+│── main.jsx           # Entry point
+│── index.css          # Global styles
+```
+
+---
+
+## Installation and Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/Bryanjose001/novu-foods-landing.git
+```
+
+2. Navigate into the project folder:
+
+```
+cd novu-foods-landing
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Run the development server:
+
+```
+npm run dev
+```
+
+5. Open the application in your browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Challenges Faced
+
+One of the main challenges was implementing navigation between pages using React Router and ensuring that the application behaved like a single-page application without full page reloads.
+
+Another challenge was maintaining a consistent design while supporting two languages, which required structuring content dynamically.
+
+---
+
+## Lessons Learned
+
+* Improved understanding of React component structure
+* Gained experience with client-side routing using React Router
+* Learned how to build responsive layouts using Tailwind CSS
+* Practiced organizing a project for scalability and readability
+
+---
+
+## Future Improvements
+
+* Add a fully functional restaurants page with real data
+* Implement user authentication
+* Connect the frontend to a backend API
+* Add order tracking functionality
+* Improve UI animations and interactions
+
+---
+
+## Author
+
+Bryan Jose
+GitHub: https://github.com/Bryanjose001
