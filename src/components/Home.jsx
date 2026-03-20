@@ -44,8 +44,25 @@ function Home({ language }) {
 
         <div className="flex gap-4 justify-center flex-wrap">
 
-     
-        </div>
+  <a
+    href="https://novu-foods-cuefummfu-bryanjose001s-projects.vercel.app"
+    target="_blank"
+    rel="noreferrer"
+    className="px-6 py-3 bg-black text-white rounded-xl font-semibold hover:bg-gray-800 transition"
+  >
+    {language === "en" ? "Order Now" : "Ordena ahora"}
+  </a>
+
+  <a
+    href="https://novu-foods-cuefummfu-bryanjose001s-projects.vercel.app"
+    target="_blank"
+    rel="noreferrer"
+    className="px-6 py-3 bg-white text-black rounded-xl font-semibold border border-black hover:bg-gray-100 transition"
+  >
+    {language === "en" ? "View Restaurants" : "Ver restaurantes"}
+  </a>
+
+</div>
       </div>
     </section>
   );
